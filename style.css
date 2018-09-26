@@ -1,0 +1,22 @@
+#gameBoard{
+    width : 480px;
+    height: 480px;
+    margin-left: calc(50% - 240px);
+    overflow: hidden;
+}
+.row{
+    width : 480px;
+    height: 120px;
+    display: flex;
+}
+.square{
+    background-color: blanchedalmond;
+    width : 118px;
+    height : 118px;
+    border:1px solid white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    color:white;
+    text-align: center;
+}
