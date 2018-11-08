@@ -196,11 +196,11 @@ function moveRight() {
                     doubleSTR = double.toString()
                     $(targetd).text(doubleSTR)
                     $(target).text("")
-                    move = true;
+                    move = true
                 }
             }
             targetd = "#square"
-            target = "#square";
+            target = "#square"
         }
     }
     return move
